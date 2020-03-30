@@ -20,8 +20,8 @@ cd hackcam
 bash hackcam.sh
 ```
 ## Installing kali linux
-'''
+...
 git clone https://github.com/sparkz-technology/hackcam
 cd hackcam
 bash hackcam.sh
-'''
+...
