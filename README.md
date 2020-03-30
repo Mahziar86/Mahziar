@@ -24,4 +24,4 @@ bash hackcam.sh
 git clone https://github.com/sparkz-technology/hackcam
 cd hackcam
 bash hackcam.sh
-...
+```
