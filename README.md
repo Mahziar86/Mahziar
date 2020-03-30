@@ -11,10 +11,17 @@ Take webcam shots from target just sending a malicious link
 
 
 
-## Installing (Kali Linux/Termux):
+## Installing Termux:
 
 ```
 git clone https://github.com/sparkz-technology/hackcam
+pkg install php
 cd hackcam
 bash hackcam.sh
 ```
+## Installing kali linux
+'''
+git clone https://github.com/sparkz-technology/hackcam
+cd hackcam
+bash hackcam.sh
+'''
