@@ -16,8 +16,12 @@ Take webcam shots from target just sending a malicious link
 ```
 pkg install git
 pkg install php
+pkg install openssh
+pkg install wget
+pkg install curel
 git clone https://github.com/sparkz-technology/hackcam
 cd hackcam
+chmod +x hackcam.sh (give permission to run)
 bash hackcam.sh
 ```
 ## Installing kali linux
