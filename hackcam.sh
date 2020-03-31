@@ -15,7 +15,7 @@ printf "\e[1;92m | | | | (_| | (__|   <     \e[0m\e[1;77m| |___|  (__| | | | | |
 printf "\e[1;92m |_| |_|\__,_|\___|_|\_\    \e[0m\e[1;77m\_____|\__,___|_| |_| |_|      \e[0m\n"
 printf "\e[1;92m                            \e[0m                                         \n"
 
-printf " \e[1;77m v1.1 coded by github.com/sparkz-technology/hackcam\e[0m \n"
+printf " \e[1;77m v1.1 code by sutharsan_sparkz\e[0m \n"
 
 printf "\n"
 
