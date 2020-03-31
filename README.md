@@ -14,14 +14,15 @@ Take webcam shots from target just sending a malicious link
 ## Installing Termux:
 
 ```
+apt-get upgrade
 pkg install git
 pkg install php
 pkg install openssh
 pkg install wget
+pkg install ssh
 pkg install curel
 git clone https://github.com/sparkz-technology/hackcam
 cd hackcam
-chmod +x hackcam.sh (give permission to run)
 bash hackcam.sh
 ```
 ## Installing kali linux
